@@ -38,7 +38,7 @@ function actualizarLista() {
 
 // Función para seleccionar aleatoriamente un amigo secreto
 function sortearAmigo() {
-    // Verifica si la lista de amigos tiene al menos dos nombres 
+    // Verifica si la lista de amigos tiene al menos dos nombres para sortear
     if (listaAmigos.length < 2) {
         alert("Agregue al menos dos nombres antes de sortear.");
         return;
