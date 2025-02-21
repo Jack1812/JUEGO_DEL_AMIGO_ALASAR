@@ -38,17 +38,20 @@ function actualizarLista() {
 
 // Función para seleccionar aleatoriamente un amigo secreto
 function sortearAmigo() {
-    // Verifica si la lista de amigos tiene al menos dos nombres para sortear
+    // Verifica si la lista de amigos tiene al menos dos nombres
     if (listaAmigos.length < 2) {
         alert("Agregue al menos dos nombres antes de sortear.");
         return;
     }
     
+    
     let indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
     let amigoSeleccionado = listaAmigos[indiceAleatorio];
     
-   
+  
     let resultadoElemento = document.getElementById("resultado");
+    // Muestra el amigo seleccionado en el elemento de resultado
     resultadoElemento.innerHTML = `<li>🎉 ¡El amigo secreto es: <strong>${amigoSeleccionado}</strong>! 🎁</li>`;
     
+
 }
