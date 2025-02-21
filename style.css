@@ -160,3 +160,27 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo para el icono de GitHub */
+.github-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.github-link .whatsapp-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 60px;
+}
+
+.github-link .whatsapp-icon img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
